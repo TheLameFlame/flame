@@ -86,6 +86,12 @@ button {
   margin-bottom: 24px;
 }
 
+.counter {
+  margin: 48px;
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 800px) {
   #header img {
     width: 250px;
