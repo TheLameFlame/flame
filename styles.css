@@ -100,6 +100,11 @@ ul li a {
     font: 200 30px "Dosis", sans-serif;
   }
 
+  .container {
+    width: 70vw;
+    margin: auto;
+  }
+
   .intro {
     margin-top: 80px;
   }

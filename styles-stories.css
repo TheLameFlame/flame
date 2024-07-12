@@ -69,6 +69,7 @@ p {
 .buttons {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 button {
@@ -78,6 +79,16 @@ button {
   background-color: black;
   color: rgb(141, 4, 4);
   font: 400 20px "Ubuntu", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(141, 4, 4); 
+  transition: 0.2s; 
+}
+
+button a:hover {
+  color: black;
+  transition: 0.2s;
 }
 
 .widget {
@@ -123,7 +134,7 @@ button {
 }
 
 @media (max-width: 800px) {
- .widget {
-  margin-top: 24px;
- }
+  .widget {
+    margin-top: 24px;
+  }
 }
