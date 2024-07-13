@@ -66,6 +66,7 @@ p {
 
 .story-links {
   margin-top: 16px;
+  position: relative;
 }
 
 ul {
@@ -75,6 +76,17 @@ ul {
 ul li a {
   color: rgb(141, 4, 4);
   font: 200 16px "Dosis", sans-serif;
+}
+
+.story-links img {
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  right: 16px;
+}
+
+#first-paragraph {
+  margin-top: 60px;
 }
 
 .counter {
@@ -114,5 +126,26 @@ ul li a {
   p,
   ul li a {
     font: 200 20px "Dosis", sans-serif;
+  }
+
+  .story-links {
+    position: relative;
+  }
+
+  .story-links img {
+    position: absolute;
+    right: 16px;
+    height: 150px;
+  }
+
+  #first-paragraph {
+    margin-top: 0;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1250px) {
+  #first-paragraph {
+    max-width: 75%;
   }
 }
