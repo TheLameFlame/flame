@@ -140,12 +140,12 @@ ul li a {
 
   #first-paragraph {
     margin-top: 0;
-    max-width: 70%;
+    max-width: 65%;
   }
 }
 
 @media (min-width: 1250px) {
   #first-paragraph {
-    max-width: 75%;
+    max-width: 70%;
   }
 }
