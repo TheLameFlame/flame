@@ -82,8 +82,8 @@ button {
 }
 
 button:hover {
-  background-color: rgb(141, 4, 4); 
-  transition: 0.2s; 
+  background-color: rgb(141, 4, 4);
+  transition: 0.2s;
 }
 
 button a:hover {
@@ -98,9 +98,9 @@ button a:hover {
 }
 
 .counter {
-  margin: 48px;
   display: flex;
   justify-content: center;
+  margin-bottom: 36px;
 }
 
 @media (min-width: 800px) {
